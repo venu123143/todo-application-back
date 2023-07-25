@@ -9,7 +9,7 @@ require('./database/db')
 
 // cors and json
 const options={
-    origin: ['http://localhost:3000'],
+    origin: ['http://localhost:3000','https://taskcreation.onrender.com'],
     credentials: true,
     withCredentials:true,
     optionSuccessStatus: 200,
